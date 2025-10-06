@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+.modal-share,
+.tab-btn.active,
+.tab-btn.inactive {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 60px ;
+  padding: 11px 20px ;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: normal;
+}
+.modal-share,
+.tab-btn.active {
+  background-color: #f22539 !important;
+  color: #fff ;
+}
+.tab-btn.active:hover,
+.modal-share:hover {
+  background: #e22b2b;
+}
+
+.pokemon-list li span {
+  text-align: left;
+  flex: 1;
+  margin-left: 20px;
+}
+.star-btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 0;
+  color: #ccc;
+  transition: color 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #F9F9F9;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 8px 10px 8px 0px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+}
+.no-results-title,
+.no-results-subtitle,
+.go-back-home-btn {
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+.no-results-title {
+  color: #353535;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 18px 0px 0px 0px;
+}
+.no-results-subtitle {
+  color: #5E5E5E;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  margin-top: 14px;
+}
+
