@@ -18,3 +18,4 @@ describe('BaseButton.vue', () => {
     expect(wrapper.emitted()).toHaveProperty('click');
   });
 });
+ 
